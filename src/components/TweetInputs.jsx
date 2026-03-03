@@ -2,8 +2,7 @@ function TweetInputs() {
     return (
         <div className="border-b border-gray-200 p-4 bg-white">
             <div className="flex gap-3">
-                {/* Avatar */}
-                <div className="w-10 h-10 rounded-full bg-gray-300"></div>
+                <i className="fas fa-user text-white text-center h-10 w-10 flex items-center justify-center rounded-full bg-gray-300"></i>
 
                 <div className="flex-1">
                     <textarea
